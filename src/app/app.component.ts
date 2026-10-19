@@ -50,7 +50,7 @@ import { Employee, EmployeeService } from './employee.service';
             </td>
           </tr>
           <tr *ngIf="employees.length === 0">
-            <td colspan="5" style="text-align: center;">No employees found.</td>
+            <td colspan="6" style="text-align: center;">No employees found.</td>
           </tr>
         </tbody>
       </table>
